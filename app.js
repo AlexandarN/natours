@@ -30,8 +30,9 @@ const limiter = rateLimit({
 	message: 'Too many requests from this IP, please try again in an hour!'
 }); 
 
-  // 4) VIEW ENGINE setting	
-
+	// 4) VIEW ENGINE setting	
+	
+	
 	// 5) MIDDLEWAREs
 	// 5.1) MIDDLEWAREs for setting a static PUBLIC folder  
 app.use(express.static(path.resolve('public')));        
