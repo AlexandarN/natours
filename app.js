@@ -20,7 +20,7 @@ const errorController = require('./controllers/errorController');
 
 
 	// 3) CONSTANTs
-	// 3.1)  Express initatation
+	// 3.1)  Express initiation
 const app = express();
 
 	// 3.2)  Consecutive Http requests limiter
@@ -31,7 +31,6 @@ const limiter = rateLimit({
 });
 
 	// 4) VIEW ENGINE setting
-
 
 	// 5) MIDDLEWAREs
 	// 5.1) MIDDLEWAREs for setting a static PUBLIC folder
