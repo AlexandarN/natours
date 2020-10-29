@@ -32,7 +32,6 @@ const limiter = rateLimit({
 
 	// 4) VIEW ENGINE setting
 
-
 	// const [products, activities] = await Promise.all([
   //   Product.aggregate([
   //     { $match: { _id: ObjectId(productId) } },
