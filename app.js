@@ -32,6 +32,31 @@ const limiter = rateLimit({
 
 	// 4) VIEW ENGINE setting
 
+
+	// const [products, activities] = await Promise.all([
+  //   Product.aggregate([
+  //     { $match: { _id: ObjectId(productId) } },
+  //     { $unwind: '$boutiques' },
+  //     { $match: { 'boutiques.serialNumbers.number': serialNumber } },
+  //     { $unwind: '$boutiques.serialNumbers' },
+  //     { $lookup: {
+  //         from: 'clients',
+  //         localField: 'boutiques.serialNumbers.reservedFor',
+  //         foreignField: '_id',
+  //         as: 'client',
+  //     } },
+  //     { $unwind: '$client' },
+  //     { $project: {
+  //         basicInfo: '$basicInfo',
+  //         boutiques: '$boutiques',
+  //         reservedFor: {
+  //           fullName: '$client.fullName',
+  //           photo:'$client.photo'
+  //         }
+  //     } },
+  //   ]),
+
+
 	// 5) MIDDLEWAREs
 	// 5.1) MIDDLEWAREs for setting a static PUBLIC folder
 app.use(express.static(path.resolve('public')));
