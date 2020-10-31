@@ -53,7 +53,10 @@ const limiter = rateLimit({
   //           photo:'$client.photo'
   //         }
   //     } },
-  //   ]),
+	//   ]),
+
+
+
 
 	// 5) MIDDLEWAREs
 	// 5.1) MIDDLEWAREs for setting a static PUBLIC folder
