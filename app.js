@@ -32,6 +32,8 @@ const limiter = rateLimit({
 
 	// 4) VIEW ENGINE settings
 
+
+
 	// 5) MIDDLEWAREs
 	// 5.1) MIDDLEWAREs for setting a static PUBLIC folder
 app.use(express.static(path.resolve('public')));
