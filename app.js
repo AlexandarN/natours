@@ -18,7 +18,6 @@ const reviewsRoutes = require('./routes/reviewsRoutes');
 const AppError = require('./utils/AppError');
 const errorController = require('./controllers/errorController');
 
-
 	// 3) CONSTANTs
 	// 3.1)  Express initiation
 const app = express();``
@@ -31,9 +30,6 @@ const limiter = rateLimit({
 });
 
 	// 4) VIEW ENGINE settings
-
-
-
 
 	// 5) MIDDLEWAREs
 	// 5.1) MIDDLEWAREs for setting a static PUBLIC folder
